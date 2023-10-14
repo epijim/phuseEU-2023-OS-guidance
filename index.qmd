@@ -1,0 +1,57 @@
+---
+from: markdown+emoji
+execute: 
+  cache: true
+format: 
+  letterbox-revealjs:
+    css: [custom.css]
+    progress: false
+    menu: false
+    width: 1280
+    height: 720
+callout-appearance: simple
+editor_options: 
+  chunk_output_type: console
+---
+
+## {}
+
+::: columns
+::: {.column width="40%"}
+
+:::
+::: {.column width="60%"}
+
+::: {.title data-id="title"}
+PHUSE End-to-End Open-source Collaboration Guidance
+:::
+
+::: {.dateplace}
+2023-11-06 @ PHUSE EU 2023
+:::
+
+##### James Black & Mike Stackhouse
+
+::: {.callout-link}
+
+## Links
+
+![](img/icon-webdoc.png){.icon} [https://phuse-org.github.io/E2E-OS-Guidance/](https://phuse-org.github.io/E2E-OS-Guidance/)
+
+![](img/icon-presentation.png){.icon} [epijim.]()
+
+
+:::
+
+:::
+:::
+
+![](img/website-app.png){.image-left}
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+```{r}
+1 + 1
+```
